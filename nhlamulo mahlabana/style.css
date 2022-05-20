@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-size: cover;
+    
+
+}
+
+.wrapper{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+nav .bookshop{
+    font-size: 35px;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+nav{
+    display: flex;
+    width: 100%;
+    background:blue;
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+}
+nav ol{
+    display: flex;
+    list-style: none;
+    margin: auto 0;
+
+}
+nav ol li{
+    margin: 0 2px;
+}
+nav ol li a{
+font-size: 20;
+text-decoration: none;
+text-transform: capitalize;
+letter-spacing: 1px;
+padding: 5px 10px;
+color: white;
+}
+nav ol li:hover a{
+background: white;
+color: #0a5071;
+}
+nav .search{
+display: flex;
+margin: auto 0;
+height: 35px;
+line-height: 35px;
+}
+nav .search input{
+border: none;
+outline: none;
+background: white;
+height: 100;
+padding: 0 10px;
+font-size: 20px;
+width: 350px;
+}
+nav .search span{
+    color: blue;
+font-size: 20px;
+background: white;
+height: 100%;
+padding: 8px;
+position: relative;
+cursor: pointer;
+z-index: 1;
+}
+
+
+
+.shelf1{
+    display: flex;
+     justify-content: space-between;
+     height: 12rem;
+
+}
+.book1{
+padding: 1px;
+background-color: aquamarine;
+margin: 0 9px;
+border-radius: 70px;
+}
+.pic{
+    width: 20%;
+}
+p,h2{
+    padding: 0 20px;
+}
+
+
+.shelf2{
+    display: flex;
+     justify-content: space-between;
+     height: 12rem;
+
+
+}
+.book2{
+padding: 10px;
+background-color: aquamarine;
+margin: 0 10px;
+
+}
+.pic{
+    width: 140px;
+    height: 120px;
+}
+p,h2{
+    padding: 0 20px;
+}
+.shelf3{
+   
+    display: flex;
+    justify-content: space-between;
+    height: 12rem;
+
+}
+.book{
+padding: 1px;
+
+margin: 0 10px;
+}
+
+
+
+.img{
+    border-radius:80%;
+    width: 40%;
+    height: 90%;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+

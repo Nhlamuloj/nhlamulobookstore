@@ -1,141 +1,132 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="book.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>  
-    
+<body>
     <div class="wrapper">
-    <div class="nav">
-        <ul>
-            <li><a href="#">New Release</a></li>
-            <li><a href="#">featured</a></li>
-        </ul>
-        <div class="box navBox" align ="right">
-            <form action="">
-                   <input type="searchBox" name="" id="srchBox" placeholder="search for books here">
-            </form>
-    </div>
-
-    <main> 
-        <div class="cont">
-            <div class="middle">
-                  <h1>book you</h1>
-                  <div class="books">
+        <nav>
+            <div class="bookshop">book <b style="color:aqua;">S</b>hop</div>
+            <div class="search">
+                <input type="search" placeholder="search here" id="txt" ><button onclick="search();">search</button>
+               
+            </div>
+            <ol>
+                <li><a href="#">New Release</a></li>
+                <li><a href="#">Featured</a></li>
+                <li><input type="button" value="logout" onclick="logout();"></li>
+            </ol>
+        </nav>
+        <br> <br>
+        <main>
+            <div class="thebook">
+                <div class="shelf1">
+                    <h1>book you read last</h1>
                     <div class="book1">
-                        <img src="images/animal.jfif" alt="" class="img">
+                        <img src="images/animal.jfif" alt="" class="pic">
                         <h2>Animal farm</h2>
-                       <p>Author: george orwell</p>
-                       <p>Publish Year: 1945</p>
+                        <p>Author: george orwell</p>
+                        <p>Publish Year: 1945</p>
                     </div>
 
-
-                    <div class="book2">
-                        <img src="images/the crucible.jfif" alt="" class="img">
+                    <div class="book1">
+                        <img src="images/the crucible.jfif" alt="" class="pic">
                         <h2>The crucible</h2>
                         <p>Author: Arthur Miller</p>
                         <p>Publish Year: 1953</p>
                     </div>
-        
-                    
-                    <div class="book3">
-                        <img src="images/dj.jfif" alt="" class="img">
+
+                  <div class="book1">
+                        <img src="images/dj.jfif" alt="" class="pic">
                         <h2>The Art of Hustling</h2>
                         <p>Author: Dj Sbu</p>
-                        <p>Publish Year: 2018</p> 
-                    </div> 
-
-                    <div class="book4">
-                        <img src="images/long walk to freedom.jfif" alt="" class="img">
+                        <p>Publish Year: 2018</p>
+                    </div>
+                    <div class="book1">
+                        <img src="images/long walk to freedom.jfif" alt="" class="pic">
                         <h2>Long Walk to freedom</h2>
                         <p>Author: Nelson Mandela</p>
                         <p>Publish Year: 1945</p>
                     </div>
+                
+                </div>
+                <br><br>
+                <div class="shelf2">
+                    <h1>new Release</h1>
+                    <div class="book2">
+                        <img src="images/emp.jpg" alt="" class="pic">
+                        <h2>Empire of Mind</h2>
+                        <p>Author: Jay-z</p>
+                        <p>Publish Year:2015</p>
+                        <input type="button"value="Mystery">
                     </div>
 
-                    <br>
-                    <div class="last">
-                        <h1>book you</h1>
-                        <div class="newRelease">
-                            <div class="book5">
-                                <img src="images/" alt="" class="img">
-                                <h2>Empire State of mind</h2>
-                                <p>Author: </p>
-                                <p>Publish Year: 2015</p>
-                                <button>buy</button>
-                               
-                            </div>
-        
-                            <div class="book6">
-                                <img src="images/higher is waiting.jpg" alt="" class="img">
-                                <h2>Higher is waiting</h2>
-                                <p>Author: </p>
-                                <p>Publish Year: 1969</p>
-                                <button>buy</button>
-                            </div>
-        
-        
-        
-                            <div class="book7">
-                                <div class="pic">
-                                    <img src="images/vusi.jpg" alt="">
-                                </div> 
-                                <div class="des">
-                                    <h2>Vusi Thembekwayo</h2>
-                                    <p>Author: Vusi Thembekwayo</p>
-                                    <p>Publish Year: 2018</p>
-                                </div>
-                                <button>buy</button>
-                            </div>
-                            </div>
-                           
+                    <div class="book2">
+                        <img src="images/higher is waiting.jpg" alt="" class="pic">
+                        <h2>Higher Is Waiting</h2>
+                        <p>Author: </p>
+                        <p>Publish Year: 2011</p>
+                        <input type="button"value="Mystery">
+                    </div>
 
-                            <br> <br> 
-                            <div class="last">
-                                <h1>book you</h1>
-                                <div class="newRelease">
-                                    <div class="book5">
-                                        <img src="images/" alt="" class="img">
-                                        <h2>Empire State of mind</h2>
-                                        <p>Author: </p>
-                                        <p>Publish Year: 2015</p>
-                                        <button>buy</button>
-                                       
-                                    </div>
-                
-                                    <div class="book6">
-                                        <img src="images/higher is waiting.jpg" alt="" class="img">
-                                        <h2>Higher is waiting</h2>
-                                        <p>Author: </p>
-                                        <p>Publish Year: 1969</p>
-                                        <button>buy</button>
-                                    </div>
-                
-                
-                
-                                    <div class="book7">
-                                        <div class="pic">
-                                            <img src="images/vusi.jpg" alt="">
-                                        </div> 
-                                        <div class="des">
-                                            <h2>Vusi Thembekwayo</h2>
-                                            <p>Author: Vusi Thembekwayo</p>
-                                            <p>Publish Year: 2018</p>
-                                        </div>
-                                        <button>buy</button>
-                                    </div>
-                                    </div>
-
-
-                   
+                  <div class="book2">
+                        <img src="images/Business& Life Lesson_.jpg" alt="" class="pic">
+                        <h2>Vusi Thembekwayo</h2>
+                        <p>Author: vusi Thembekwayo</p>
+                        <p>Publish Year: 1945</p>
+                        <input type="button"value="fiction">
+                    </div>
+                    <div class="book2">
+                        <img src="images/the godfather.jpg" alt="" class="pic">
+                        <h2>The Godfather</h2>
+                        <p>Author:</p>
+                        <p>Publish Year: 1945</p>
+                        <input type="button"value="Triller">
+                    </div>
                 </div>
-    
+                <br> <br>
+                <br> <br>
+                <div class="shelf3">
+                    <h1>Famous Author</h1>
+                    <div class="book3">
+                        <img src="images/author.jpg" alt="" class="img">
+                        <h2>Higher Is Waiting</h2>
+                        </div>
 
-            </main>
-        
+                  <div class="book3">
+                        <img src="images/arundhati roy.webp" alt="" class="img">
+                        <h2>Arundhati roy</h2>
+                        
+                    </div>
+                    <div class="book3">
+                        <img src="images/Toni Morrison.jpg" alt="" class="img">
+                        <h2>Toni Morrison</h2>
+                    </div>
+                    
+            </div>
+        </main>
+
+    </div>
+    <script>
+        var  myArry=["The Art of Hustling","Higher Is Waiting","Animal farm" ,"Long Walk to freedom"]
+        function search(){
+            var txt= document.getElementById("txt").value;
+            var book= myArry.indexOf(txt);
+            if(book !== -1)
+            {
+                alert(" The book is Avilable");
+            }
+            else{
+                alert("The book is not Avilable");
+            }
+        }
+
+
+    </script>
 </body>
 </html>
