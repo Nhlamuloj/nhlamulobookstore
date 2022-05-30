@@ -26,6 +26,3 @@ function login(){
         location.href="project.html";
     }
 }
-function logout(){
-    Location.href="logout.html";
-}
